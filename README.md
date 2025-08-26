@@ -1,6 +1,5 @@
 # MyHUD.app
 
-v2.3.1
 Welcome to the official GitHub repository for **[MyHUD.app](https://myhud.app)** – a customizable HUD designed specifically for CS2 casters and streamers.
 
 ## 🚀 About
