@@ -8,13 +8,12 @@ Welcome to the official GitHub repository for **[MyHUD.app](https://myhud.app)**
 
 This repository hosts the official **releases** of the software.
 
-➡️ **Download the latest version here:** [Releases](https://github.com/myhudcs/myhud-release/releases/latest)
+➡️ **Download the latest version here:** [Latest release](https://github.com/myhudcs/myhud-release/releases/latest)
 
 ## 📦 Repository Contents
 
 - `README.md` – this file
-- `.zip` or `.exe` files for various versions of the application
-- Release notes detailing updates and changes
+- [`CHANGELOG.md`](CHANGELOG.md) – details all new features, improvements, and fixes for each release
 
 ## 🧰 Installation
 
