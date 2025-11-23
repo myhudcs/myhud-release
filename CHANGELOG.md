@@ -1,3 +1,55 @@
+## **2.4.20**
+
+### **What's New**
+
+* **New “My Account” Section**
+  A brand-new area dedicated to user account management has been added.
+  Users can now view all their personal and billing details, including:
+  * Their **email address**
+  * **Subscription start date**
+  * **Subscription end date** (if the subscription is ending)
+  * **Next billing date** (if the subscription is active)
+  * A full list of **all invoices**, available to view or download anytime
+    This section allows users to manage their subscription and recover documents without needing to contact support.
+
+* **Miscellaneous Improvements**
+  Several minor enhancements and optimizations have been made to improve the overall user experience.
+
+## **2.4.15**
+
+### **What's New**
+
+* **Required Fields Highlighting**
+  Mandatory player fields (Nickname, SteamID, etc.) now highlight in **red** when invalid or missing, helping users instantly identify what's required.
+
+* **Improved Player Creation UX**
+  Users can no longer create a player with incomplete mandatory data.
+  Visual indicators now clearly guide the user.
+
+* **Smart Player Logo Fallback System**
+  The correct image is always displayed thanks to improved fallback logic:
+  * If the player has **no personal image** but **has a team**, the **team logo** is shown.
+  * If the player has **no image** and **no team**, the **Steam profile picture** is used.
+  * If a **team has no logo**, default **CT/T icons** are displayed.
+
+* **Config Files Health Check**
+  The software now checks whether config files are correctly installed in the CS2 directory.
+  * A **red cross** appears when something is wrong.
+  * A clear and explicit error message explains the issue.
+
+* **HUD Stability Improvements**
+  Closing the software while reviewing a demo no longer triggers repeated error pop-ups — spam completely removed.
+
+* **Cooldown Screen Localization**
+  All cooldown screens are now properly translated in every supported language.
+
+* **Subscription / Unsubscription Fix**
+  A bug preventing users from unsubscribing has been fixed.
+  Users can now freely and correctly **cancel their subscription**.
+
+* **Miscellaneous Fixes**
+  Several small bugs and issues have been fixed to improve stability and overall user experience.
+
 ## 2.4
 
 ### New Features
