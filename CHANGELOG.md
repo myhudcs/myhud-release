@@ -20,6 +20,8 @@
   * Simplified configuration system with cleaner debounce logic
   * Better error handling and performance optimization
   * Improved component architecture for maintainability
+  * DE_ANUBIS comeback in BO system
+
 
 ## **2.4.20**
 
