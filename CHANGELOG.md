@@ -8,7 +8,7 @@
   * **Persistent Setting**: Height preference is saved and applied automatically
 
 * **📁 Players & Teams Import/Export**
-  **Streamline your workflow with powerful data management!** The new import/export system allows users to easily backup, share, and transfer their player and team configurations across different installations or share them with colleagues.
+The new import/export system allows users to easily backup, share, and transfer their player and team configurations across different installations or share them with colleagues.
   * **Selective Export**: Choose to export only players, only teams, or both
   * **Smart Import Options**: Merge with existing data or completely overwrite
   * **Duplicate Prevention**: Built-in warnings when merging to avoid data conflicts
