@@ -1,3 +1,28 @@
+## **2.4.28**
+
+### **What's New**
+
+* **🎛️ Configurable Sponsor Height**
+  * **Height Range**: Adjustable from 50px to 200px with 5px increments
+  * **Real-time Preview**: See changes instantly in the configuration panel
+  * **Persistent Setting**: Height preference is saved and applied automatically
+
+* **📁 Players & Teams Import/Export**
+  **Streamline your workflow with powerful data management!** The new import/export system allows users to easily backup, share, and transfer their player and team configurations across different installations or share them with colleagues.
+  * **Selective Export**: Choose to export only players, only teams, or both
+  * **Smart Import Options**: Merge with existing data or completely overwrite
+  * **Duplicate Prevention**: Built-in warnings when merging to avoid data conflicts
+
+* **🌍 Swedish Translation Support**
+  Added Swedish language support to make MyHUD accessible to even more users worldwide!
+  * **Special Thanks**: Huge shoutout to **@mrmn_** for the Swedish translation contribution 🙌
+  * **Complete Coverage**: Swedish joins our 10 supported languages (EN, FR, DE, ES, CN, RU, UA, SE, RO, HU)
+
+* **🛠️ Code Quality Improvements**
+  * Simplified configuration system with cleaner debounce logic
+  * Better error handling and performance optimization
+  * Improved component architecture for maintainability
+
 ## **2.4.20**
 
 ### **What's New**
