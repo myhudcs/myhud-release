@@ -10,7 +10,7 @@ The minimap now works correctly after switching PCs, without needing to change c
 :zap: **Performance optimization testing**  
 Angular components are loaded only when needed  
 
-:mobile_phone: **Responsive fixes**  
+↕️ **Responsive fixes**  
 Improved responsive interface for teams and players in the options  
 
 :straight_ruler: **Configurable application size**  
