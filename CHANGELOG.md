@@ -1,3 +1,21 @@
+## 2.4.29
+### What's New
+
+:art: **Horizontal design update**  (Screenshot)
+Minor adjustments to the horizontal layout  
+
+:map: **Minimap fix**  
+The minimap now works correctly after switching PCs, without needing to change colors  
+
+:zap: **Performance optimization testing**  
+Angular components are loaded only when needed  
+
+:mobile_phone: **Responsive fixes**  
+Improved responsive interface for teams and players in the options  
+
+:straight_ruler: **Configurable application size**  
+The application size can now be adjusted
+
 ## **2.4.28**
 
 ### **What's New**
