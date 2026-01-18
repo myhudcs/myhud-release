@@ -4,7 +4,7 @@
 :art: **Horizontal design update**  (Screenshot)
 Minor adjustments to the horizontal layout  
 
-:map: **Minimap fix**  
+🗺️ **Minimap fix**  
 The minimap now works correctly after switching PCs, without needing to change colors  
 
 :zap: **Performance optimization testing**  
