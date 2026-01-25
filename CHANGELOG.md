@@ -1,3 +1,13 @@
+## **2.4.35**
+
+### **What's New**
+
+* **🎨 New Central Player Card Design**
+  * Visual redesign of the central panel used to display the selected player (Improved readability and a more modern look)
+
+* **🔧 Multi-fixes**
+  * Various minor fixes and small stability improvements
+
 ## 2.4.29
 ### What's New
 
