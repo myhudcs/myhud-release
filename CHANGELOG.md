@@ -1,3 +1,24 @@
+## **2.5.0**
+
+### **What's New**
+
+- **👁️ Live HUD Preview Dock**
+  A brand-new toggleable mini-preview is now embedded directly in the configuration page, letting you see your HUD changes in real time without opening the full overlay.
+  - **Sticky Dock**: Collapsible preview panel that stays visible while you scroll through settings
+  - **Dynamic Tooltips**: Hover tooltip adapts to show "Expand preview" or "Reduce preview"
+  - **Auto-Disable**: Preview automatically turns off when the real HUD is open to save resources
+
+- **⚡ Performance Optimizations**
+  Significant under-the-hood improvements to reduce CPU and memory usage during live gameplay.
+  - **Smart GSI Throttle**: Game state events are now capped at ~30fps at the source, while critical state changes (round phase, bomb, map phase) always pass through instantly
+  - **RxJS Event Throttle**: Angular-side event processing capped at ~30fps with `auditTime` to prevent unnecessary renders
+  - **Shallow Array Comparison**: Replaced expensive `JSON.stringify` comparisons for team arrays with lightweight element-by-element checks
+
+- **🛠️ Code Quality & Architecture**
+  - Migrated Electron window modules to fully compiled TypeScript
+  - Replaced HUD-dependent CSS variables with hardcoded colors in config styles for UI stability
+
+
 ## **2.4.35**
 
 ### **What's New**
