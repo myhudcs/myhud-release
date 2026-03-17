@@ -1,3 +1,10 @@
+
+## 2.5.1
+
+### Fixes
+- **HLAE**: Fixed issues with HLAE not launching correctly
+
+
 ## **2.5.0**
 
 ### **What's New**
