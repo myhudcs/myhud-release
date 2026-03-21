@@ -2,10 +2,10 @@
 
 ### **What's New**
 
-- **:desktop: Screen Selection**
+- **🖥️ Screen Selection**
   Choose which screen to display the HUD on when multiple monitors are connected. Includes automatic fallback if the selected screen is no longer available.
 
-- **:zap: HUD Performance Optimizations**
+- **⚡ HUD Performance Optimizations**
   Major improvements to reduce CPU usage and minimize FPS loss in-game.
   - **GPU Rendering**: HUD now uses hardware-accelerated rendering instead of software rendering
   - **Optimized CSS Transitions**: Scoped animations to specific properties across all HUD components
