@@ -1,3 +1,22 @@
+## **2.5.2**
+
+### **What's New**
+
+- **:desktop: Screen Selection**
+  Choose which screen to display the HUD on when multiple monitors are connected. Includes automatic fallback if the selected screen is no longer available.
+
+- **:zap: HUD Performance Optimizations**
+  Major improvements to reduce CPU usage and minimize FPS loss in-game.
+  - **GPU Rendering**: HUD now uses hardware-accelerated rendering instead of software rendering
+  - **Optimized CSS Transitions**: Scoped animations to specific properties across all HUD components
+  - **Optimized HUD Window**: Non-focusable, frameless overlay that never steals focus from the game
+
+### **Fixes**
+
+- Fixed refresh token issue when using the websource on OBS
+- Fixed "Open/Close HUD" button state on the home page after opening via keyboard shortcut
+
+---
 
 ## 2.5.1
 
