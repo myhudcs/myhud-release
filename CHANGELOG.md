@@ -1,3 +1,38 @@
+## **2.6.0**
+
+### **What's New**
+
+- **🗺️ Veto System**
+  Full veto management directly from the configuration panel. Configure map bans, picks, and deciders for BO1, BO3, and BO5 formats.
+  - **Manual veto**: Select teams, choose format, and walk through the ban/pick sequence step by step
+  - **Import from FACEIT & HLTV**: Paste a match URL to automatically import the veto
+  - **Live veto overlay**: Display the veto on the HUD during a match via a configurable keyboard shortcut
+  - **Step-by-step reveal**: Toggle between instant display or reveal maps one by one from the config panel in real-time
+
+- **🎯 Veto Keyboard Shortcut**
+  New configurable shortcut (default F7) to toggle the veto overlay live on the HUD, alongside the existing tab shortcut.
+
+- **📊 Improved BO System**
+  Refactored Best-of map win tracking with a new `TeamMatcherService` for more reliable team/side detection across scoreboard, top bar, and match score components.
+
+- **🔧 Manual BO Increment**
+  Added the ability to manually increment Best-of scores from the config panel.
+
+### **Improvements**
+
+- Smoother animations on the veto overlay and finished screen
+- Fixed visual artifacts (1px white borders) on player cards, veto cards, top bar, and match score
+- Picks and deciders now visually stand out from bans in the veto overlay
+- Scoreboard now supports open/close animations
+- Compressed image assets
+- Full translations for the veto system across all 10 languages
+
+### **Fixes**
+
+- Fixed free trial expiration not being properly enforced
+- Fixed shortcuts not working on the OBS websource
+- Fixed config shortcut not being read locally
+
 ## **2.5.2**
 
 ### **What's New**
