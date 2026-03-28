@@ -8,7 +8,7 @@
 - **🎬 Step-by-Step Veto Reveal**
   Toggle between instant display or revealing maps one by one in real-time from the config panel. Controls include Next, Prev, Reset, and All buttons with a live counter.
 
-- ** 🖼️ Faceit Logo **
+- ** 🖼️ Faceit Logo**
   Team logos are now automatically imported when using the Faceit match import feature.
 
 ### **Improvements**
