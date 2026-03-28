@@ -1,3 +1,24 @@
+## **2.6.1**
+
+### **What's New**
+
+- **🌐 Standalone Veto Web Source**
+  Display the veto as a standalone browser source in OBS, independently from the HUD and without needing to join a server. A new dedicated page is available. Copy the URL directly from the config panel.
+
+- **🎬 Step-by-Step Veto Reveal**
+  Toggle between instant display or revealing maps one by one in real-time from the config panel. Controls include Next, Prev, Reset, and All buttons with a live counter.
+
+- **🖼️ Faceit Logo **
+  Team logos are now automatically imported when using the Faceit match import feature.
+
+### **Improvements**
+
+- Veto overlay now supports standalone mode with transparent background and no scrolling bands
+- Team name is now displayed between the logo and ban/pick label on veto cards
+- Real-time veto sync between config panel, HUD, and web source via WebSocket
+- Teams list is now refreshed when adding, editing, or changing active teams
+- Fixed duplicate winner/pick names in the BO component
+
 ## **2.6.0**
 
 ### **What's New**
