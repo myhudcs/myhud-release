@@ -1,3 +1,31 @@
+## **2.6.6**
+
+### **What's New**
+
+*   **🎯 Clutch Mode** Automatically highlights the player in a clutch situation on the HUD. Can be toggled on/off and configured to display for **1v1**, **1v2** or **1v3** scenarios.
+
+*   **🧑‍🎤 Default CT/T Agent Skins** Removed default Steam profile pictures and replaced them with the in-game official CT/T agent skins for a cleaner and more consistent look.
+
+*   **🪟 Resizable Main Window** The main application window can now be minimized to a smaller size, and the menu bar can also be collapsed to save screen space.
+
+*   **👥 Player Count per Team** The number of players in each team is now displayed directly on the teams page.
+
+*   **📋 Roster on Team Detail Page** View the full roster from a team's detail page, with the ability to add or remove players directly from there.
+
+*   **🗺️ Minimap Polish**
+    *   Slightly larger player dots for better readability
+    *   Added a **text shadow** on player numbers
+    *   Subtle **gradient** applied to the dot colors
+
+### **Fixes**
+
+*   Fixed window display issue in the Windows taskbar
+*   Removed HUD lag feeling when previewing OBS via the web source (HUD bumped from **30 to 45 FPS**)
+*   Fixed **bomb/defuse timer**: an incorrect rounding could display a wrong value
+*   Spanish translations revised, along with various missing translations across the app
+*   Reworked app responsiveness to allow a more compact window size
+
+
 ## **2.6.1**
 
 ### **What's New**
