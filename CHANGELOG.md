@@ -6,7 +6,7 @@
     Real-time GSI analysis that picks the most interesting player to observe and switches POV automatically — no more missed clutches because the observer was on the wrong player.
     *   **Suggestion mode**: MyHUD only highlights who to spectate; you press the key yourself
     *   **Auto-switch mode**: MyHUD presses the slot keys inside CS2 for you (works only when CS2 is the focused window — live focus indicator shown in the config panel)
-    *   **Cinematic freezetime shots**: Every freezetime, the camera cycles through two fixed map shots (T side then CT side, order tied to the previous round winner) before handing back to Smart Observer. 7 maps of the competitive pool covered: Dust2, Mirage, Inferno, Nuke, Anubis, Ancient, Overpass.
+    *   **Cinematic freezetime shots**: Every freezetime, the camera cycles through two fixed map shots (T side then CT side, order tied to the previous round winner) before handing back to Smart Observer.
 
 *   **🎬 Auto Clips Generation**
     MyHUD detects your best plays during a match and automatically creates clips on your Twitch channel.
@@ -14,6 +14,9 @@
     *   One highlight per round max, 60s global cooldown to avoid spam
     *   New **"Auto Clips"** section in the config: enable the feature and browse all your generated clips directly inside MyHUD, with status (in progress / created / posted / failed) and a link straight to Twitch
     *   Requires a Twitch username set in the **My account** page
+
+*   **💨 Live Smoke Timer on the Minimap**
+    Smokes on the minimap now display a live camembert (pie-chart) countdown that drains over the smoke's 20-second duration, so spectators can see exactly when a smoke is about to fade.
 
 ## **2.6.6**
 
