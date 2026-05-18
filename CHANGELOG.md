@@ -1,3 +1,20 @@
+## **2.7.1**
+
+### **What's New**
+
+*   **🎯 Smart Observer**
+    Real-time GSI analysis that picks the most interesting player to observe and switches POV automatically — no more missed clutches because the observer was on the wrong player.
+    *   **Suggestion mode**: MyHUD only highlights who to spectate; you press the key yourself
+    *   **Auto-switch mode**: MyHUD presses the slot keys inside CS2 for you (works only when CS2 is the focused window — live focus indicator shown in the config panel)
+    *   **Cinematic freezetime shots**: Every freezetime, the camera cycles through two fixed map shots (T side then CT side, order tied to the previous round winner) before handing back to Smart Observer. 7 maps of the competitive pool covered: Dust2, Mirage, Inferno, Nuke, Anubis, Ancient, Overpass.
+
+*   **🎬 Auto Clips Generation**
+    MyHUD detects your best plays during a match and automatically creates clips on your Twitch channel.
+    *   Triggers on **aces**, **clutch wins**, **multi-kills (3+)** and **bomb defuses** (with a boost when the defuse happens mid-clutch)
+    *   One highlight per round max, 60s global cooldown to avoid spam
+    *   New **"Auto Clips"** section in the config: enable the feature and browse all your generated clips directly inside MyHUD, with status (in progress / created / posted / failed) and a link straight to Twitch
+    *   Requires a Twitch username set in the **My account** page
+
 ## **2.6.6**
 
 ### **What's New**
