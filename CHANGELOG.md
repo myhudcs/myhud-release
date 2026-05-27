@@ -1,3 +1,31 @@
+## **2.7.3**
+
+### **Fixes & Improvements**
+
+*   **🎯 Smart Observer — Better tracking inside stacks**
+    POV now correctly follows the actual fragger inside a stacked T execute instead of staying glued to a random teammate.
+    *   New candidate-side hard signal switches to whoever starts firing close-range, even mid-stack
+    *   T-stack signal isolated so it no longer falsely flags every stacked teammate as "in combat"
+    *   Fight detection now reads direct combat facts (shots, damage, kills) instead of score thresholds
+
+*   **🎯 Smart Observer — Mode-aware tuning**
+    Switching behavior now adapts to context:
+    *   **Clutch mode** — stricter lock on the 1vX survivor
+    *   **Execute mode** — looser stack margin to catch the entry fragger
+    *   **Duel mode** — tighter protection on active mutual-aim duels
+
+*   **🎯 Smart Observer — 1v4 detection fix**
+    Real 1v4 clutches were sometimes labeled as 1v3. Now correctly recorded.
+
+*   **🎬 Auto Clips — Aces & Multi-Kills actually trigger now**
+    A timing bug was silently swallowing every multi-kill (3+) and ace before emission. Fixed.
+
+*   **🎬 Auto Clips — Clips now land on the action**
+    Clips used to trigger at round end, often missing the actual play on the Twitch 30-second window. Trigger now fires ~8s after the last contributing kill, placing the moment near the end of the clip.
+
+*   **🎬 Auto Clips — Bomb Defuse removed**
+    Too many low-value clips. A defuse inside a real clutch is still captured via **clutch_win**.
+
 ## **2.7.1**
 
 ### **What's New**
