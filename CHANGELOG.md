@@ -20,6 +20,9 @@
 * **🌐 Portuguese Language Support**
   Portuguese joins our supported languages. MyHUD is now available in 11 languages.
 
+* **🗺️ de_cache Added to the Official Map Pool**
+  de_cache replaces de_overpass in the active duty map pool and is now fully supported across the BO system, veto, and minimap.
+
 ### **Fixes & Improvements**
 
 * **🏅 MVP Animation — Optional Trophy**
@@ -33,9 +36,6 @@
 
 * **🎬 Auto Clips — Detection Adjustments**
   Fine-tuned trigger conditions to reduce false positives and better capture the actual highlight moment.
-
-* **🏆 Team Won This Round**
-  The card now dismisses naturally at the start of the next freezetime, with a smooth exit animation.
 
 * **💥 Damage Shake — Full Avatar**
   The shake animation on damage now applies to the entire player card rather than just the HP number.
