@@ -1,3 +1,50 @@
+## **2.8.1 - 01/07/2026**
+
+### **What's New**
+
+* **🎬 Replays via OBS**
+  MyHUD integrates with the **OBS Replay Buffer** to automatically create and display replays.
+  * Triggers the OBS buffer save via a configurable keyboard shortcut — buffer duration is set directly in OBS
+  * At the start of the next freezetime, the replay is automatically displayed in the HUD
+  * New **Replay** section in the config panel
+
+* **📊 Player Stats Card**
+  Real-time player statistics now appear on the HUD.
+  * **Multi-provider support**: choose between Leetify, Faceit, or live in-game data from the config panel
+  * Configurable keyboard shortcut to show/hide the card during a match
+  * New **Stats** section in the config panel with a live preview
+
+* **🏆 Team Won This Round Card**
+  A new card highlights which team won the round, displayed briefly after each round ends — configurable from the config panel.
+
+* **🌐 Portuguese Language Support**
+  Portuguese joins our supported languages. MyHUD is now available in 11 languages.
+
+### **Fixes & Improvements**
+
+* **🏅 MVP Animation — Optional Trophy**
+  Added an option to hide the trophy icon on the round MVP animation, for a cleaner look.
+
+* **🗺️ Minimap Performance**
+  Significant optimizations to the minimap rendering to eliminate stutters and lag spikes during gameplay.
+
+* **🖼️ Team Logo as Player Fallback — Now Optional**
+  When a manually added player has no photo, MyHUD previously always displayed their team's logo. You can now choose: keep the team logo, or fall back to the default CT/T icons instead.
+
+* **🎬 Auto Clips — Detection Adjustments**
+  Fine-tuned trigger conditions to reduce false positives and better capture the actual highlight moment.
+
+* **🏆 Team Won This Round**
+  The card now dismisses naturally at the start of the next freezetime, with a smooth exit animation.
+
+* **💥 Damage Shake — Full Avatar**
+  The shake animation on damage now applies to the entire player card rather than just the HP number.
+
+* **⚡ General Performance Optimizations**
+  Several under-the-hood improvements to reduce CPU load and make the HUD more responsive.
+  * Computed HUD values (stats, teams, animation delays) are now cached and only recalculated when something actually changes, avoiding unnecessary work on every refresh
+
+
 ## **2.7.3**
 
 ### **Fixes & Improvements**
