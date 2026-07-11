@@ -1,12 +1,12 @@
 ## **2.8.4 - 11/07/2026**
 
 ### What's New
-* **🎬 Cinematic Freezetime ** 
+* **🎬 Cinematic Freezetime** 
 Now Independent from Smart Observer
 The round-start cinematic can now be enabled on its own, without requiring Smart Observer in auto-switch mode.
 Both features are now configured independently from the config panel
 
-* **🚀 Update Server Migration ** 
+* **🚀 Update Server Migration** 
 Effective from Next Update
 We are migrating auto-updates to our own dedicated servers. Starting from the next release, downloads will go through our infrastructure instead of GitHub Releases.
 Significantly faster and more reliable downloads from the next update onwards
@@ -14,7 +14,7 @@ Manual fallback: if a download takes more than 30 seconds, a "Download manually 
 
 ### **Fixes & Improvements**
 
-* **⚡ Performance Optimizations **
+* **⚡ Performance Optimizations**
 Process priority is now reset via the Windows API to prevent the HUD from competing with CS2 for CPU resources
 
 ## **2.8.1 - 01/07/2026**
