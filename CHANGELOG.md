@@ -2,15 +2,15 @@
 
 ### What's New
 * **🎬 Cinematic Freezetime** 
-Now Independent from Smart Observer
-The round-start cinematic can now be enabled on its own, without requiring Smart Observer in auto-switch mode.
-Both features are now configured independently from the config panel
+  * Now Independent from Smart Observer
+  * The round-start cinematic can now be enabled on its own, without requiring Smart Observer in auto-switch mode.
+  * Both features are now configured independently from the config panel
 
 * **🚀 Update Server Migration** 
-Effective from Next Update
-We are migrating auto-updates to our own dedicated servers. Starting from the next release, downloads will go through our infrastructure instead of GitHub Releases.
-Significantly faster and more reliable downloads from the next update onwards
-Manual fallback: if a download takes more than 30 seconds, a "Download manually →" button appears to open the release page directly in your browser
+  * Effective from Next Update
+  * We are migrating auto-updates to our own dedicated servers. Starting from the next release, downloads will go through our infrastructure instead of GitHub Releases.
+  * Significantly faster and more reliable downloads from the next update onwards
+  * Manual fallback: if a download takes more than 30 seconds, a "Download manually →" button appears to open the release page directly in your browser
 
 ### **Fixes & Improvements**
 
