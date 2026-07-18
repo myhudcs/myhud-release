@@ -1,3 +1,12 @@
+## **2.8.11 - 18/07/2026**
+
+### **Fixes & Improvements**
+
+* **🖥️ Windows Display Scaling Fix**
+  The HUD now correctly uses native screen resolution when Windows display scaling is enabled (125%, 150%, etc.).
+  * Previously, the HUD was sized in DIP units, so it could appear too small or misaligned on scaled displays
+  * The main app window UI is scaled to match the OS DPI so the config panel stays readable
+    
 ## **2.8.4 - 11/07/2026**
 
 ### What's New
