@@ -1,3 +1,22 @@
+## **2.9.0 - 24/07/2026**
+
+### **What's New**
+
+* **🎛️ Live Dashboard Tab**
+  A brand-new "Dashboard Live" tab in the config panel centralizes everything happening during a match in one place.
+  * **Live server readout**: map, round number, score, phase (warmup / live / freezetime / round over), timer, bomb state, and currently observed player, updated in real time from GSI
+  * **Per-feature status cards**: Smart Observer, OBS Replay, Player Stats, and Veto each get a status card (disabled / waiting / live) so you can see at a glance what's active
+  * **Player Stats card**: pick which connected player to track directly from the live player list, no need to leave the dashboard
+  * **Veto card**: follow the current map and live score inputs, and finish a map straight from the dashboard — the "Finish map" action now requires a live server connection to avoid finishing a map with stale data
+
+### **Fixes & Improvements**
+
+* **📡 Replay Status Live Feedback**
+  The dashboard now shows real-time replay status (recording / pending / playing) instead of only reflecting it after the fact.
+
+* **🌐 Full Translation Coverage**
+  The new Dashboard Live tab is fully translated across all 11 supported languages.
+
 ## **2.8.11 - 18/07/2026**
 
 ### **Fixes & Improvements**
