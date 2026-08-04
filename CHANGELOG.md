@@ -1,3 +1,47 @@
+## **2.9.3 - 05/08/2026**
+
+### **What's New**
+
+- **📥 Live Update Progress**
+  The update window now shows real download and install progress with a percentage bar.
+  - See which phase you're in: checking, downloading, or installing
+  - Progress reflects actual work instead of a static spinner
+  - The manual download fallback still appears if the download takes too long
+
+- **⚡ HUD Performance & Frame Rate**
+  MyHUD now uses less CPU during live matches, with a new setting to choose your priority.
+  - **30 Hz (recommended)** - lower CPU usage, leaves more headroom for CS2 and OBS
+  - **60 Hz** - smoother minimap and overlay updates when you have CPU to spare
+  - The HUD skips unnecessary refreshes when game data hasn't meaningfully changed
+
+- **🎛️ Local Automation & Stream Deck**
+  Control MyHUD from Stream Deck, scripts, or any tool on your PC via a new localhost API.
+  - New **Local automation** tab in the config panel, plus a status card on the Dashboard Live tab
+  - Enable a WebSocket + HTTP server on `127.0.0.1` - connections from other machines are blocked
+  - Built-in commands mirror your in-app hotkeys: scoreboard, veto, reload overlay, toggle HUD, player stats, and color presets
+  - Show a specific player's stats by HUD slot (1-9, 0 for the 10th) - no Steam ID needed
+  - [Official Stream Deck plugin](https://marketplace.elgato.com/product/myhud-deck-ca96acc7-b6d4-4264-b3fe-59168dc0368e) on the Elgato Marketplace - also linked from the config panel
+  - Recent request log for debugging what your Stream Deck or scripts sent
+
+- **📊 Automatic Player Stats**
+  The player stats card can now follow whoever you're currently spectating.
+  - **Manual** - pick a fixed player from the Dashboard or config panel (as before)
+  - **Automatic** - the card tracks the observed player in real time and switches as you change spectate target
+  - Switch the stats provider (Faceit, Leetify, or live in-game) from the Dashboard Live tab
+
+### **Fixes & Improvements**
+
+- **🎯 Faceit Level Icons**
+  Faceit skill level badges on the player stats card now display correctly with dedicated level icons (levels 1-10).
+
+- **🔄 Smaller Updates**
+  Delta update packages now build correctly against the previous release, so incremental updates download less when available.
+
+- **🚫 Single Instance**
+  MyHUD now allows only one running instance at a time.
+  - Launching the app again brings the existing window to the foreground instead of starting a duplicate
+  - Prevents silent failures where a second copy can't receive game data from CS2
+
 ## **2.9.1 - 25/07/2026**
 
 ### **What's New**
