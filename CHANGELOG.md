@@ -1,3 +1,23 @@
+## **2.9.1 - 25/07/2026**
+
+### **What's New**
+
+* **🗺️ Native Minimap**
+  The minimap is now built directly into MyHUD.
+  * Same radar for the HUD widget and the standalone browser/OBS view
+  * Team colors sync from your HUD color scheme - no separate minimap config
+
+* **🖥️ Standalone Minimap Page**
+  Browser and OBS sources now use `http://localhost:36364/minimap` instead of the old root URL. Existing links to `/` redirect automatically.
+
+### **Fixes & Improvements**
+
+* **⚡ Minimap Performance**
+  Rewritten rendering engine with smoother updates and lower CPU usage during gameplay.
+
+* **🌐 Translation Updates**
+  Minimap labels updated across all 11 supported languages.
+
 ## **2.9.0 - 24/07/2026**
 
 ### **What's New**
