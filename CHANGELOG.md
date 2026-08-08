@@ -1,3 +1,36 @@
+## **2.9.5 - 08/08/2026**
+
+### **What's New**
+
+- **🗺️ Canvas Minimap**
+  The minimap now draws on a single canvas layer instead of many DOM elements.
+  - Smoother player and grenade motion with less CPU during live matches
+  - Same radar for the HUD widget and the standalone browser/OBS view
+  - Safer path under Windows software compositing, to avoid blank or crash edge cases on some setups
+
+- **⚡ 60 Hz Default Frame Rate**
+  New installs and unset configs now default to **60 Hz** for smoother minimap and overlay updates.
+  - You can still switch back to **30 Hz** in the config panel for lower CPU usage
+
+- **🎯 FACEIT Anti-Cheat Warning**
+  Smart Observer now detects when the FACEIT client anti-cheat (`faceitservice.exe`) is running and blocks auto POV switches.
+  - Warning in the config panel when auto-switch mode is on
+  - Live status on the Dashboard Live Smart Observer card
+  - Quit the FACEIT client to restore auto-switching, or use suggest mode and change POV manually
+
+### **Fixes & Improvements**
+
+- **📡 Smarter GSI Updates**
+  Game state updates are now split into HUD state and radar frames, with fewer redundant refreshes when nothing meaningful changed.
+  - More accurate bomb and round countdown timing on the overlay
+  - Lower CPU during quiet phases of the round
+
+- **🎬 OBS Replay on Browser Source**
+  OBS Replay Buffer clips now play in the OBS websource, not only in the overlay.
+
+- **🛡️ HUD Auto-Recovery**
+  If the transparent HUD renderer crashes or goes blank, MyHUD recreates the overlay automatically.
+
 ## **2.9.3 - 05/08/2026**
 
 ### **What's New**
