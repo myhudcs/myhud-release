@@ -1,3 +1,32 @@
+## **2.10.0 - 24/08/2026**
+
+### **What's New**
+
+- **🎬 Scenes**
+  Brand-new standalone broadcast graphics for stream production, separate from the live HUD — build them once in the config panel, then use them as a native window or an OBS browser source.
+  - **Versus**: face-off screen for both teams with match date countdown and BO format — pull teams from your saved roster, type them in manually, or import directly from a Faceit or HLTV match link
+  - **Talents**: showcase your observers/casters with name, role, and photo
+  - **Sponsors**: full-screen rotating sponsor carousel that auto-sizes to each logo's real aspect ratio instead of squeezing every shape into the same box
+  - **Intermission**: map score recap with upcoming maps and series score, falling back to the Versus screen until a match is configured
+  - Optional sponsor carousel and event name badge overlay on every scene, with a configurable position
+  - Live preview directly in the config panel before opening a scene
+  - Open natively (click, or press Escape, to close) or drop the OBS websource URL straight into a browser source
+
+### **Fixes & Improvements**
+
+- **⏱️ Smoother Bomb/Defuse Timer**
+  The bomb countdown (progress bar and timer) now updates at the same smooth, constant rate as the defuse timer instead of visibly stepping once per second while more than 10 seconds remain.
+
+- **🖼️ Cleaner Imported Team Logos**
+  Slightly reduced the display size of team logos pulled from Faceit/HLTV imports, since provider artwork is often lower resolution than manually uploaded logos.
+
+- **🖼️ Broken Local Logos on the End Screen**
+  Team logos on the end-of-map scoreboard and the round-win banner now load correctly when using a locally stored image and the OBS browser source — they were previously loaded as a direct file path, which browser sources can't read.
+
+- **🚀 Startup Fix After Updates**
+  Fixed a rare case where MyHUD could fail to start with a port-already-in-use error right after installing an update, by exiting immediately when the single-instance check detects another copy is already running.
+
+
 ## **2.9.5 - 08/08/2026**
 
 ### **What's New**
