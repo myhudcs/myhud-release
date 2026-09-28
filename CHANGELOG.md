@@ -1,3 +1,84 @@
+## **2.11.0 - 28/09/2026**
+
+### **What's New**
+
+- **⚔️ 1v1, 2v2 and 3v3 Match Formats**
+  MyHUD now fully supports small formats (aim duels, wingman, rush, arenas...), not only 5v5.
+  - The format is detected automatically from the number of players per team (4v4 is shown as 5v5), and can be forced from the config panel
+  - Round history, score and top bar adapt to the format's round count
+  - New duel layout: clutch-style cards for every player, stacked in 2v2/3v3, with the T side mirrored and a grid-aligned data bar
+  - In horizontal mode, 2v2/3v3 use the classic player cards; the vertical layout keeps the stacked cards
+  - **1v1 webcam**: the player's webcam is built into their card, beside it or above it (configurable)
+
+- **🎮 New "Game mode" Tab**
+  A dedicated tab in the config panel groups everything about the match structure.
+  - Match format: Auto, 1v1, 2v2, 3v3 or 5v5
+  - Round presets: **MR12** (Premier/Competitive), **MR15**, **Wingman**, **Rush** or **Custom**
+  - In Custom: rounds per half, rounds to win and a "No halftime" option for modes where teams never swap sides. Leave them empty for auto (format default, corrected at the first halftime)
+  - Clutch mode settings now live here too
+
+- **🔥 Clutch Mode for Every Format**
+  - Clutch mode now triggers on any 1vX situation, in every format, after a 2-second delay to avoid flickering. The old "clutch trigger" option is removed
+  - Only the solo side hides its dead players; the other team keeps its normal cards and size
+  - In duel stacks, the last survivor drops to the bottom and dead cards collapse
+  - The wide clutch card no longer pushes the center column (sponsors) aside
+  - Clutch card order is now slot, avatar, name, HP, with a death icon instead of "0 HP"
+
+- **🗺️ Minimap on Custom & Workshop Maps**
+  Maps with no bundled radar (aim, arena, 1v1/2v2/3v3 maps, workshop maps...) used to show "Error reading the map file". The minimap now finds a radar by itself.
+  - MyHUD reads the overview and radar texture straight from your CS2 install and your Workshop items, and serves them to the HUD and the OBS minimap page
+  - Order: bundled radar first, then the radar extracted from the game/workshop files, and as a last resort the players drawn on a grid that frames them
+  - **Multi-level maps**: lower levels are supported too. Each level is cropped to the map's footprint and packed in the most compact layout (wide maps stacked, tall maps side by side), and players are drawn on the right level based on their altitude
+  - **Transparent background**: many workshop radars come with an opaque black background, grid and labels. It is now removed automatically, while floors and dark areas inside the map stay. Radars that are already transparent (like the official ones) are unchanged
+  - The "Maps without radar" setting is removed: the minimap is never hidden on these maps anymore
+
+- **🧑‍🏫 Coach Support**
+  Players with the `coach|` prefix no longer break your spectator keys or your HUD.
+  - Coaches are hidden everywhere: HUD, radar and Dashboard only show real players
+  - HUD key labels now follow the rank among real players (1-9, then 0). Before, a coach sitting between players shifted every label after it. The Local automation / Stream Deck slots use the same numbering
+  - Coach detection is now case-insensitive (`coach|` and `Coach|`)
+  - `fix_coach.cfg` is rebuilt so the number keys spectate the N-th real player (the old command did not exist in CS2). It works on any keyboard layout
+  - MyHUD runs `fix_coach` by itself, **only when a coach is on the server**: on map load, when the match goes live and at every freezetime. Without a coach, your own keys are left untouched
+  - `fix_coach_off` restores your own binds, read from your CS2 config. It runs automatically at the end of the match, when you quit MyHUD mid-match, and when CS2 closes (or at the next MyHUD start)
+  - If a coach leaves mid-match, your keys are given back right away
+  - Commands wait while the console, chat or menu is open, so they never type into them
+  - A new section in the **Players** tab explains when each cfg runs, with a copy button for both console commands
+
+- **🗃️ Pro Teams/Players Database**
+  A new **DB Teams/Players** tab lets you browse our internal database of Pro teams and players.
+  - Search and pagination (20 per page), with teams sorted by most recently updated and a "last updated" date on each card
+  - Players without a team are shown under a "No team" card instead of being hidden
+  - The **Auto Pro Teams/Players** option moved here. Spot wrong info? Disable it and let us know on Discord
+
+- **🎨 Duplicate Color Profiles**
+  A new **Duplicate** button creates an editable custom copy of any color profile, built-in ones included. Duplicate and Delete now sit next to the Configuration title.
+
+### **Fixes & Improvements**
+
+- **🎥 Smarter Smart Observer**
+  - **Pause after manual switch**: when you change POV yourself in-game, the Smart Observer stays hands-off for a configurable time, then takes back control. Each new manual switch resets the timer, and the Dashboard shows the countdown ("Manual — resuming in Xs")
+  - Manual switches are detected more reliably: a manual switch right after an auto-switch is no longer ignored, and auto-switches are no longer mistaken for manual ones
+  - Distance checks (imminent duels, kill-streak locks, grouped teammates) now take floors into account, so players on different levels are no longer treated as "close"
+  - The short pause after a kill now only applies to the players involved in the switch, not to any kill on the map
+  - The cinematic camera handoff no longer gets undone right away by an old prediction
+  - Better highlight scoring: tight kill timings are rewarded, fast doubles are detected, and slow multi-minute "aces" no longer score like quick ones
+
+- **🧩 Reworked "My Teams" / "My Players" Tabs**
+  Same look as the Pro database: cards with a blurred logo/avatar background, player strip and pill toolbar, redesigned add/edit forms and roster window. Active teams get a green border and the active toggle moves to the card footer.
+
+- **🧭 Simpler Menu**
+  Tutorials and Changelog are merged into a single **Help** tab, and Export/Import moves into the **Integrations** tab.
+
+- **✅ New Confirmation Windows**
+  Every browser confirm popup is replaced by a MyHUD confirmation window, translated in all languages. Deleting a single team no longer shows the "delete all" message.
+
+- **🌐 Language Picker Fix**
+  The language picker list no longer hides behind the page content on the config page, where it could not be clicked.
+
+- **🛠️ HLAE Update**
+  HLAE is updated to version 2.192.6.
+  
+
 ## **2.10.0 - 24/08/2026**
 
 ### **What's New**
