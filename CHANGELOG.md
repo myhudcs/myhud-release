@@ -1,3 +1,16 @@
+## ** 2.12.0 - 11/10/2026**
+
+### New Features
+
+- **Online Documentation**: Every feature of MyHUD is now explained step by step at https://docs.myhud.app, also reachable from the Tutorials tab.
+- **My Account on the Website**: Manage your account directly on https://myhud.app/account: subscription, license, Twitch channel and invoices.
+- **New My Account Page in the Software**: Redesigned with your subscription, your license and when you can move it to another computer, your Twitch channel and your invoices.
+- **Local Automation API**: Control almost all of MyHUD from a Stream Deck, Bitfocus Companion or your own scripts: HUD panels, vetoes, teams and scores, scenes, replays and more. Turn it on in OPTIONS > Integrations > Local automation, everything is explained in the documentation.
+- **Auto Clips Stream Delay**: New setting (0 to 300 s) so clips still capture the action when your stream has an OBS or anti-ghosting delay.
+- **Smarter Auto Clips**: Only plays from the live match (no more warmup aces) that were actually on screen are clipped.
+- **OBS Replay Duration**: Choose the length of the replay, from 3 to 30 seconds.
+- **New Killfeed & HLAE Page**: A clearer page to launch CS2 with HLAE and set up the in-game killfeed and effects.
+
 ## **2.11.0 - 28/09/2026**
 
 ### **What's New**
